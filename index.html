@@ -11,24 +11,26 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">PH-Health</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Therapies</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Medicine</a></li>
-        <li><a href="#">Prizes</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">PH-Health</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#therapies">Therapies</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#medicine">Medicine</a></li>
+          <li><a href="#prices">Prices</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Therapies</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Medicine</a></li>
-        <li><a href="#">Prizes</a></li>      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#therapies">Therapies</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#medicine">Medicine</a></li>
+          <li><a href="#prices">Prices</a></li>      </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -55,10 +57,8 @@
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-
+<div id="therapies" class="section scrollspy">
   <div class="container">
-    <div class="section">
-
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
@@ -66,7 +66,7 @@
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Fast Pain Relief</h5>
 
-            <p class="light">With outr treatments backpain and posture related aches are of the past. Come by and relief yourself!</p>
+            <p class="light">With our treatments backpain and posture related aches are of the past. Come by and relief yourself!</p>
           </div>
         </div>
 
@@ -89,9 +89,9 @@
         </div>
       </div>
 
-    </div>
+    <!-- </div> -->
   </div>
-
+</div>
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -104,8 +104,8 @@
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
-    <div class="section">
+  <div id="about" class="section scrollspy">
+    <div class="container">
 
       <div class="row">
         <div class="col s12 center">
@@ -123,7 +123,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Nature does not hurry, yet everything is accomplished <br> - Lao Tzu</h5>
+          <div class="col s12 center">
+            
+            <h4>Nature does not hurry, yet everything is accomplished<br>- Lao Tzu</h4>
+            
+          </div>
         </div>
       </div>
     </div>
