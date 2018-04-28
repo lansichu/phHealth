@@ -4,6 +4,7 @@
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
     $('.parallax').parallax();
+    $('.modal').modal();
 
 
     /*** Animate word ***/
@@ -27,7 +28,7 @@
 	
 
 	function initHeadline() {
-		singleLetters($('.cd-headline.letters').find('b'));
+		singleLetters($('.cd-headline.letters').find('a'));
 		animateHeadline($('.cd-headline'));
 	}
 
@@ -59,7 +60,7 @@
 				spanWrapper.css('width', newWidth);
 			} else if (!headline.hasClass('type') ) {
 				//assign to .cd-words-wrapper the width of its longest word
-				var words = headline.find('.cd-words-wrapper b'),
+				var words = headline.find('.cd-words-wrapper a'),
 					width = 0;
 				words.each(function(){
 					var wordWidth = $(this).width();
