@@ -5,6 +5,7 @@
 	$('.scrollspy').scrollSpy();
     $('.parallax').parallax();
     $('.modal').modal();
+    $('.slider').slider();
 
 
     /*** Animate word ***/
