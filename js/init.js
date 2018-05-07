@@ -5,7 +5,11 @@
 	$('.scrollspy').scrollSpy();
     $('.parallax').parallax();
     $('.modal').modal();
-    $('.slider').slider();
+    $('.slider').slider({
+    	interval: 3500,
+    	duration: 750,
+    	height: 300
+    });
 
 
     /*** Animate word ***/
